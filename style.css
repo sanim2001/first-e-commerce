@@ -1,0 +1,88 @@
+
+
+
+
+
+
+.container{
+    margin-bottom: 100px;
+}
+/*Nav*/
+.navbar{
+    font-size: large;
+}
+.navbar-nav{
+    margin-left: 200px;
+}
+/*slide*/
+.carousel{
+    border-radius: 30px;
+}
+.slide-bg{
+    background-color: #FEEAE9;
+}
+.carousel-item{
+    padding: 20px 20px 40px 60px;
+}
+.price{
+    color: #FF136F;
+}
+.button-buy-now{
+    background-image: linear-gradient(to bottom,#FF136F 0%,rgba(255, 93, 120, 0.986) 100%);
+    padding: 10px  25px;
+    margin-top: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+}
+/*Banner*/
+.cat1,.cat2,.cat3{
+    padding: 20px 60px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.cat1{
+    background-image: linear-gradient(to bottom,#FF9C35 0%,#f0c08e 100%);
+}
+.cat2{
+    background-image: linear-gradient(to bottom,#FF136F 0%,rgba(250, 126, 147, 0.986) 100%);
+}
+.cat3{
+    background-image: linear-gradient(to bottom,#4289FF 0%,#90c7fa 100%);
+}
+.catagories h1{
+    color: white;
+    font-size: 21px;
+}
+.catagories img{
+    width: 120px;
+}
+
+/*Shoes*/
+.edit-card{
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+.edit-card h4{
+    text-align: center;
+    padding: 5px 20px;
+}
+.shoes-buy{
+    background-image: linear-gradient(to bottom,#000000 0%,rgba(83, 83, 83, 0.986) 100%);
+    padding: 10px  20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-left: 37%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sho-p{
+    text-align: center;
+}
+#shoes h1,#backpacks h1{
+    text-align: center;
+    padding: 25px;
+    color: tomato;
+}
