@@ -29,11 +29,17 @@
 }
 .button-buy-now{
     background-image: linear-gradient(to bottom,#FF136F 0%,rgba(255, 93, 120, 0.986) 100%);
-    padding: 10px  25px;
+    padding: 10px  35px;
     margin-top: 10px;
     font-size: 17px;
     border: none;
     border-radius: 10px;
+    overflow: hidden;
+}
+.button-buy-now:hover{
+    background-image: linear-gradient(#457df5,rgba(27, 183, 255, 0.993));
+    transition: 0.7s ease-in-out;
+    color: white;
 }
 /*Banner*/
 .cat1,.cat2,.cat3{
@@ -63,6 +69,15 @@
     box-shadow: 5px 5px 10px lightgrey;
     border-radius: 10px;
 }
+.edit-card{
+    box-shadow: 1px 1px 7px lightgrey;
+    border-radius: 10px;
+}
+.edit-card:hover{
+    box-shadow: 5px 5px 12px lightgrey;
+    border-radius: 15px;
+    transition: 700ms ease-in-out;
+}
 .edit-card h4{
     text-align: center;
     padding: 5px 20px;
@@ -78,6 +93,11 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.shoes-buy:hover{
+    background-image: linear-gradient(to bottom,#ff6868 0%,rgba(221, 44, 0, 0.986) 100%);
+    color: black;
+    transition-duration: 1.5s;
+}
 .sho-p{
     text-align: center;
 }
@@ -85,4 +105,23 @@
     text-align: center;
     padding: 25px;
     color: tomato;
+}
+/*subscribe*/
+.orange-bg{
+    background-color: #FEEAE9;
+    border-radius: 20px;
+    padding: 80px 10px;
+}
+.center-bg{
+    margin-left: 30%;
+}
+.email{
+    border: none;
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+input{
+    outline: none;
 }
